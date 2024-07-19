@@ -1,0 +1,90 @@
+
+// Variables CSS
+:root {
+
+}
+
+// -------------------------------------------------------------------------------------------------------------------------------------------
+
+// Utilities
+
+.hidden-mobile { @include breakpoint($tablet) { display: none !important; } }
+
+.hidden-desktop { @include breakpoint( $tablet + 1, min-width ) { display: none !important; } }
+
+.w-full-mobile { @include breakpoint($tablet) { width: 100% !important; } }
+
+.px-1rem-mob {
+    @include breakpoint($tablet) {
+        --px: 1rem;
+        padding-left: var(--px) !important;
+        padding-right: var(--px) !important;
+    }
+}
+
+.py-3rem-mob {
+    @include breakpoint($tablet) {
+        --py: 3rem;
+        padding-top: var(--py) !important;
+        padding-bottom: var(--py) !important;
+    }
+}
+
+.py-4rem-mob {
+    @include breakpoint($tablet) {
+        --py: 4rem;
+        padding-top: var(--py) !important;
+        padding-bottom: var(--py) !important;
+    }
+}
+
+.py-5rem-mob {
+    @include breakpoint($tablet) {
+        --py: 5rem;
+        padding-top: var(--py) !important;
+        padding-bottom: var(--py) !important;
+    }
+}
+
+// -------------------------------------------------------------------------------------------------------------------------------------------
+
+// Componentes
+
+.header__container {
+    .wp-block-navigation__responsive-container-close {
+        top: 25px;
+        right: 17px;
+    }
+    .wp-block-navigation__responsive-container-content {
+        @include breakpoint($tablet) {
+            padding-left: 1.5rem;
+        }
+    }
+}
+
+.footer__container {
+    &.footer__container--5 {
+        .footer__logo-box {
+            @include breakpoint($tablet) {
+                text-align: center;
+            }
+        }
+        .footer__copy {
+            @include breakpoint($tablet) {
+                text-align: center;
+            }
+        }
+        .footer__dev {
+            p {
+                @include breakpoint($tablet) {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+// -------------------------------------------------------------------------------------------------------------------------------------------
+
+// CSS personalizado (escrito en SCSS)
+

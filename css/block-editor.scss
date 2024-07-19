@@ -1,0 +1,16 @@
+// Este archivo de SASS agrupa todos los SCSS y CSS de la carpeta /partials. Y los compila en un archivo llamado block-editor.css comprimido.
+
+// Con node-sass podemos compilarlo con el siguiente comando (que lo hara automaticamente cada vez que guardamos alguno de los archivos):
+// -w css/block-editor.scss css/block-editor.css --output-style compressed
+
+// Breakpoints
+@import "partials/breakpoints.scss";
+
+// Principales estilos de nuestro proyecto.
+@import "partials/_main.scss";
+
+.panel-flex { display: flex !important; }
+.panel-block { display: block !important; }
+.panel-inline { display: inline !important; }
+.panel-hidden { display: none !important; }
+

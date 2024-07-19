@@ -1,0 +1,14 @@
+// Este archivo de SASS agrupa todos los SCSS y CSS de la carpeta /partials. Y los compila en un archivo llamado screen.css comprimido.
+
+// Con node-sass podemos compilarlo con el siguiente comando (que lo hara automaticamente cada vez que guardamos alguno de los archivos):
+// -w css/screen.scss css/screen.css --output-style compressed
+
+// Breakpoints
+@import "partials/breakpoints.scss";
+
+// Reset
+// http://html5doctor.com/html-5-reset-stylesheet
+@import "partials/_reset.scss";
+
+// Principales estilos de nuestro proyecto.
+@import "partials/_main.scss";

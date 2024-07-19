@@ -1,0 +1,14 @@
+// Breakpoints
+$mobile-sm: 359;
+$mobile: 768;
+$tablet: 1023;
+$laptop: 1279;
+$monitor: 1535;
+
+@mixin breakpoint($max-width, $property: max-width) {
+    $max-width: calc($max-width / 16 * 1rem);
+
+    @media only screen and ($property: $max-width) {
+        @content;
+    }
+}

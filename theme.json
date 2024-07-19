@@ -1,0 +1,143 @@
+{
+	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "840px",
+			"wideSize": "1100px"
+		},
+		"color": {
+			"duotone": [
+				{
+					"colors": [
+						"#000",
+						"#FFF"
+					],
+					"slug": "black-and-white",
+					"name": "Black and White"
+				}
+			],
+			"gradients": [
+				{
+					"slug": "blush-bordeaux",
+					"gradient": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+					"name": "Blush bordeaux"
+				},
+				{
+					"slug": "blush-light-purple",
+					"gradient": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+					"name": "Blush light purple"
+				}
+			],
+			"palette": [
+				{
+					"slug": "strong-magenta",
+					"color": "#a156b4",
+					"name": "Strong magenta"
+				},
+				{
+					"slug": "very-dark-grey",
+					"color": "rgb(131, 12, 8)",
+					"name": "Very dark grey"
+				}
+			]
+		},
+		"typography": {
+			"fontSizes": [
+				{
+					"slug": "small",
+					"size": "0.75rem",
+					"name": "Small"
+				},
+				{
+					"slug": "semi-normal",
+					"size": ".875rem",
+					"name": "Semi normal"
+				},
+				{
+					"slug": "normal",
+					"size": "1rem",
+					"name": "Normal"
+				},
+				{
+					"slug": "semi-medium",
+					"size": "1.125rem",
+					"name": "Semi medium"
+				},
+				{
+					"slug": "medium",
+					"size": "1.25rem",
+					"name": "Medium"
+				},
+				{
+					"slug": "large",
+					"size": "1.5rem",
+					"name": "Large"
+				},
+				{
+					"slug": "x-large",
+					"size": "2rem",
+					"name": "X Large"
+				},
+				{
+					"slug": "xx-large",
+					"size": "2.5rem",
+					"name": "2X Large"
+				},
+				{
+					"slug": "xxx-large",
+					"size": "3rem",
+					"name": "3X Large"
+				},
+				{
+					"slug": "xxxx-large",
+					"size": "4rem",
+					"name": "4X Large"
+				}
+			],
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw",
+				"%"
+			]
+		},
+		"spacing": {
+			"spacingScale": {
+				"operator": "*",
+				"increment": 2,
+				"steps": 7,
+				"mediumStep": 1.5,
+				"unit": "rem"
+			},
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw",
+				"%"
+			]
+		},
+		"blocks": {
+			"core/group": {
+				"color": {
+					"palette": [
+						{
+							"slug": "black",
+							"color": "#000000",
+							"name": "Black"
+						},
+						{
+							"slug": "white",
+							"color": "#ffffff",
+							"name": "White"
+						}
+					]
+				}
+			}
+		}
+	}
+}

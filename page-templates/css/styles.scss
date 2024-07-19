@@ -1,0 +1,21 @@
+// Este archivo de SASS agrupa todos los SCSS y CSS de la carpeta /partials. Y los compila en un archivo llamado screen.css comprimido.
+
+// Con node-sass podemos compilarlo con el siguiente comando (que lo hara automaticamente cada vez que guardamos alguno de los archivos):
+// -w css/screen.scss css/screen.css --output-style compressed
+
+// Breakpoints
+@import "partials/breakpoints.scss";
+
+// Reset
+@import "../../css/partials/_reset.scss";
+
+// Librerías JS
+// Ver como se cargan en la siguiente documentación:
+// https://www.notion.so/onlines/Plugins-dd64ced7e4f5493ba9e8e2288037344d
+
+// @import "../vendor/css/_swiper.css";
+// @import "../vendor/css/_aos.css";
+// @import "../vendor/css/_glightbox.css";
+
+// Principales estilos de nuestro proyecto.
+@import "partials/_main.scss";

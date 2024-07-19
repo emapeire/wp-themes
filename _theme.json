@@ -1,0 +1,853 @@
+{
+	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "840px",
+			"wideSize": "1100px"
+		},
+		"color": {
+			"duotone": [
+				{
+					"colors": [
+						"#000",
+						"#FFF"
+					],
+					"slug": "black-and-white",
+					"name": "Black and White"
+				}
+			],
+			"gradients": [
+				{
+					"slug": "blush-bordeaux",
+					"gradient": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+					"name": "Blush bordeaux"
+				},
+				{
+					"slug": "blush-light-purple",
+					"gradient": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+					"name": "Blush light purple"
+				}
+			],
+			"palette": [
+				{
+					"slug": "strong-magenta",
+					"color": "#a156b4",
+					"name": "Strong magenta"
+				},
+				{
+					"slug": "very-dark-grey",
+					"color": "rgb(131, 12, 8)",
+					"name": "Very dark grey"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell, \"Helvetica Neue\",sans-serif",
+					"slug": "system-font",
+					"name": "System Font"
+				},
+				{
+					"fontFamily": "Arial, sans-serif",
+					"slug": "arial",
+					"name": "Arial"
+				},
+				{
+					"fontFamily": "Courier, monospace",
+					"slug": "courier",
+					"name": "Courier"
+				},
+				{
+					"fontFamily": "Georgia, serif",
+					"slug": "georgia",
+					"name": "Georgia"
+				},
+				{
+					"fontFamily": "Helvetica Neue, Helvetica, sans-serif",
+					"slug": "helvetica",
+					"name": "Helvetica"
+				},
+				{
+					"fontFamily": "Impact, sans-serif",
+					"slug": "impact",
+					"name": "Impact"
+				},
+				{
+					"fontFamily": "Tahoma, sans-serif",
+					"slug": "tahoma",
+					"name": "Tahoma"
+				},
+				{
+					"fontFamily": "Times New Roman, serif",
+					"slug": "times-new-roman",
+					"name": "Times New Roman"
+				},
+				{
+					"fontFamily": "Verdana, sans-serif",
+					"slug": "verdana",
+					"name": "Verdana"
+				},
+				{
+					"fontFamily": "Inter",
+					"slug": "inter",
+					"name": "Inter",
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "100",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/inter/inter-v12-latin-100.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "200",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/inter/inter-v12-latin-200.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/inter/inter-v12-latin-300.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/inter/inter-v12-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/inter/inter-v12-latin-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/inter/inter-v12-latin-600.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/inter/inter-v12-latin-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/inter/inter-v12-latin-800.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/inter/inter-v12-latin-900.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Barlow",
+					"slug": "barlow",
+					"name": "Barlow",
+					"fontFace": [
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "100",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-100.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "200",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-200.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-300.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-600.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-800.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-900.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "100",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-100italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "200",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-200italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-300italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-500italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-600italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-700italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-800italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Barlow",
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/barlow/barlow-v12-latin-900italic.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "DM Serif Display",
+					"slug": "dm-serif-display",
+					"name": "DM Serif Display",
+					"fontFace": [
+						{
+							"fontFamily": "DM Serif Display",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/dm-serif-display/dm-serif-display-v10-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Serif Display",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/dm-serif-display/dm-serif-display-v10-latin-italic.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "DM Serif Text",
+					"slug": "dm-serif-text",
+					"name": "DM Serif Text",
+					"fontFace": [
+						{
+							"fontFamily": "DM Serif Text",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/dm-serif-text/dm-serif-text-v10-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Serif Text",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/dm-serif-text/dm-serif-text-v10-latin-italic.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "DM Sans",
+					"slug": "dm-sans",
+					"name": "DM Sans",
+					"fontFace": [
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/dm-sans/dm-sans-v11-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/dm-sans/dm-sans-v11-latin-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/dm-sans/dm-sans-v11-latin-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/dm-sans/dm-sans-v11-latin-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/dm-sans/dm-sans-v11-latin-500italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/dm-sans/dm-sans-v11-latin-700italic.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Fraunces",
+					"slug": "fraunces",
+					"name": "Fraunces",
+					"fontFace": [
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "100",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-100.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "200",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-200.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-300.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-600.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-800.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-900.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "100",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-100italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "200",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-200italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-300italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-500italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-600italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-700italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-800italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/fraunces/fraunces-v24-latin-900italic.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Figtree",
+					"slug": "figtree",
+					"name": "Figtree",
+					"fontFace": [
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/figtree/figtree-v1-latin-300.woff2"
+							]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/figtree/figtree-v1-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/figtree/figtree-v1-latin-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/figtree/figtree-v1-latin-600.woff2"
+							]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/figtree/figtree-v1-latin-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/figtree/figtree-v1-latin-800.woff2"
+							]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/figtree/figtree-v1-latin-900.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Tiempos Headline",
+					"slug": "tiempos-headline",
+					"name": "Tiempos Headline",
+					"fontFace": [
+						{
+							"fontFamily": "Tiempos Headline",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/tiempos-headline/TiemposHeadline-Light.woff2"
+							]
+						},
+						{
+							"fontFamily": "Tiempos Headline",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/tiempos-headline/TiemposHeadline-Regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Tiempos Headline",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/tiempos-headline/TiemposHeadline-Medium.woff2"
+							]
+						},
+						{
+							"fontFamily": "Tiempos Headline",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/tiempos-headline/TiemposHeadline-Semibold.woff2"
+							]
+						},
+						{
+							"fontFamily": "Tiempos Headline",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/tiempos-headline/TiemposHeadline-Bold.woff2"
+							]
+						},
+						{
+							"fontFamily": "Tiempos Headline",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"src": [
+								"file:./public/fonts/tiempos-headline/TiemposHeadline-Black.woff2"
+							]
+						},
+						{
+							"fontFamily": "Tiempos Headline",
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/tiempos-headline/TiemposHeadline-LightItalic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Tiempos Headline",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/tiempos-headline/TiemposHeadline-RegularItalic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Tiempos Headline",
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/tiempos-headline/TiemposHeadline-MediumItalic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Tiempos Headline",
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/tiempos-headline/TiemposHeadline-SemiboldItalic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Tiempos Headline",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/tiempos-headline/TiemposHeadline-BoldItalic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Tiempos Headline",
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"src": [
+								"file:./public/fonts/tiempos-headline/TiemposHeadline-BlackItalic.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Open Sans",
+					"slug": "open-sans",
+					"fontFace": [
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_700.ttf"
+							]
+						}
+					]
+				}
+			],
+			"fontSizes": [
+				{
+					"slug": "small",
+					"size": "0.75rem",
+					"name": "Small"
+				},
+				{
+					"slug": "medium",
+					"size": "1.25rem",
+					"name": "Medium"
+				},
+				{
+					"slug": "large",
+					"size": "1.5rem",
+					"name": "Large"
+				},
+				{
+					"slug": "x-large",
+					"size": "2rem",
+					"name": "X Large"
+				},
+				{
+					"slug": "xx-large",
+					"size": "2.5rem",
+					"name": "2X Large"
+				},
+				{
+					"slug": "xxx-large",
+					"size": "3rem",
+					"name": "3X Large"
+				},
+				{
+					"slug": "xxxx-large",
+					"size": "4rem",
+					"name": "4X Large"
+				}
+			],
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw",
+				"%"
+			]
+		},
+		"spacing": {
+			"spacingScale": {
+				"operator": "*",
+				"increment": 2,
+				"steps": 7,
+				"mediumStep": 1.5,
+				"unit": "rem"
+			},
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw",
+				"%"
+			]
+		},
+		"blocks": {
+			"core/group": {
+				"color": {
+					"palette": [
+						{
+							"slug": "black",
+							"color": "#000000",
+							"name": "Black"
+						},
+						{
+							"slug": "white",
+							"color": "#ffffff",
+							"name": "White"
+						}
+					]
+				}
+			}
+		}
+	}
+}
