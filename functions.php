@@ -24,11 +24,11 @@ require get_template_directory() . '/inc/advance-custom-fields.php';
 // Personalizaci�n del theme
 function mytheme_customize_register( $wp_customize ) {
 	//All our sections, settings, and controls will be added here
- }
- add_action( 'customize_register', 'mytheme_customize_register' );
+}
+add_action( 'customize_register', 'mytheme_customize_register' );
 
 // Bloques personalizados
-//require get_template_directory() . '/inc/register-blocks.php';
+require get_template_directory() . '/inc/register-blocks.php';
 
 // Custom functions
 require get_template_directory() . '/inc/custom-functions.php';
