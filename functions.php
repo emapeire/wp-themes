@@ -13,7 +13,7 @@ require get_template_directory() . '/inc/plugins-activation/activation.php';
 require get_template_directory() . '/inc/blocks-setup.php';
 
 // Patrones
-//require get_template_directory() . '/inc/patterns.php';
+require get_template_directory() . '/inc/patterns.php';
 
 // Enqueue
 require get_template_directory() . '/inc/enqueue.php';
