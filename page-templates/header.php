@@ -3,7 +3,7 @@
  * Header
  *
  */
- get_template_part('page-templates/head'); 
+get_template_part('page-templates/head'); 
 
     // Menú Header Back-end.
         /*
@@ -15,8 +15,8 @@
         ));
         */
     // 
- 
- ?>
+
+?>
 
 <body class="custom-page-template">
 <?php wp_body_open(); ?>

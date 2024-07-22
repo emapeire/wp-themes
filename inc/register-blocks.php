@@ -41,7 +41,7 @@ function register_acf_block_types()
 			'render_template'  => 'components/slider-logos.php',
 			'category' => 'formatting',
 			'icon' => 'block-default',
-			'keywords' => array('Slider logos', 'bloque-personalizado'),
+			'keywords' => array('Slider logos', 'slider-personalizado'),
 			'supports' => array(
 				// https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/
 				'align' => false,
